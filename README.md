@@ -16,6 +16,15 @@ Do different genres show different relationships between audio features and Bill
 Among charted songs, which features are associated with stronger normalized Billboard performance?
 Datasets Used
 
+How to Run:
+
+Open the notebook in Jupyter Notebook or JupyterLab.
+Make sure the datasets are placed in the correct folders. Namely the project should be one level lower than the three folders initial_data, intermediary_data, final_data
+Run the data preparation cells first from Appendix A and wait 1-2 minutes to load the csv files into intermediary_data and final_data .
+Run the exploratory analysis cells.
+Run the hypothesis-testing cells.
+Review the results, discussion, conclusion, and appendix sections.
+
 The project uses three main data sources:
 
 Spotify tracks dataset
@@ -198,10 +207,3 @@ or with Conda:
 
 conda install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn
 
-How to Run
-Open the notebook in Jupyter Notebook or JupyterLab.
-Make sure the datasets are placed in the correct folders. Namely the project should be one level lower than the three folders initial_data, intermediary_data, final_data
-Run the data preparation cells first from Appendix A.
-Run the exploratory analysis cells.
-Run the hypothesis-testing cells.
-Review the results, discussion, conclusion, and appendix sections.
